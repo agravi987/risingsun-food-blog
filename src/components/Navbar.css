@@ -1,0 +1,58 @@
+/* Overall Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a0f24; /* darker for stronger contrast */
+  padding: 15px 30px;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid #1c2e4a;
+}
+
+/* Left Logo/Text */
+.navbar-left a {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #9fc3e9;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* Center Nav Links */
+.navbar-center {
+  display: flex;
+  gap: 24px;
+}
+
+/* Nav Links Styling */
+.nav-link {
+  color: #d1e7ff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #1e3a5f;
+  color: #ffffff;
+}
+
+/* Right-side Add Button */
+.navbar-right .add-food-btn {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-right .add-food-btn:hover {
+  background-color: #29517f;
+  transform: scale(1.03);
+}

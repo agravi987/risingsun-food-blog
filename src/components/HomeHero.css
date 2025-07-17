@@ -1,0 +1,56 @@
+.home-container {
+  background-color: #0d1b2a; /* Dark blue background */
+  color: #ffffff;
+  min-height: 90vh;
+  /* padding: 60px 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hero Image */
+.home-hero-image {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+}
+
+/* Title */
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f2f2f2;
+  letter-spacing: 1px;
+}
+
+/* Description */
+.home-desc {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+/* Explore Button */
+.explore-btn {
+  background-color: #1e3a5f; /* Darker blue button */
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.explore-btn:hover {
+  background-color: #29517f;
+  transform: scale(1.05);
+}
